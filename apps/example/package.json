@@ -11,7 +11,7 @@
     "generate": "prisma generate",
     "reset-database": "prisma migrate reset --force && prisma migrate dev && prisma db seed",
     "prisma:migrate:dev": "prisma migrate dev",
-    "vercel-build": "prisma generate && prisma migrate deploy && next build",
+    "vercel-build": "pnpm build:next-admin && prisma generate && prisma migrate deploy && next build",
     "test:e2e": "playwright test",
     "clean": "rm -rf .next"
   },
@@ -22,7 +22,6 @@
     "@heroicons/react": "^2.0.18",
     "@picocss/pico": "^1.5.7",
     "@premieroctet/next-admin": "workspace:*",
-    "@premieroctet/next-admin-generator-prisma": "workspace:*",
     "next-intl": "^3.3.2",
     "@prisma/client": "5.14.0",
     "@tremor/react": "^3.2.2",
