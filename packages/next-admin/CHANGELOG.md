@@ -837,3 +837,6 @@
 ### Major Changes
 
 - [6af8145](https://github.com/premieroctet/next-admin/commit/6af8145): Fist release of @premieroctet/next-admin package (unstable)
+
+
+### Major Changes
